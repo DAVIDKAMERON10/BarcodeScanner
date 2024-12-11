@@ -1,7 +1,7 @@
 <?php
 // Include necessary files for the database connection and classes
-require_once 'C:/xampp/htdocs/SCANNEROOP/classes/Database.php';
-require_once 'C:/xampp/htdocs/SCANNEROOP/classes/Product_History.php';
+require_once 'C:/xampp/htdocs/BarcodeScanner/classes/Database.php';
+require_once 'C:/xampp/htdocs/BarcodeScanner/classes/Product_History.php';
 
 // Create a database connection
 $database = new Database();

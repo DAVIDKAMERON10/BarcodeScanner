@@ -1,7 +1,7 @@
 <?php
 session_start();
-require_once 'C:/xampp/htdocs/SCANNEROOP/classes/Database.php';
-require_once 'C:/xampp/htdocs/SCANNEROOP/classes/Product.php';
+require_once 'C:/xampp/htdocs/BarcodeScanner/classes/database.php';  // Database class
+require_once 'C:/xampp/htdocs/BarcodeScanner/classes/product.php'; 
 
 $database = new Database();
 $db = $database->getConnection();

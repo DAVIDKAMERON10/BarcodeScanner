@@ -1,8 +1,8 @@
 <?php
 session_start();
-require_once 'C:/xampp/htdocs/SCANNEROOP/classes/Database.php';  // Database class
-require_once 'C:/xampp/htdocs/SCANNEROOP/classes/Product.php';   // Product class
-require_once 'C:/xampp/htdocs/SCANNEROOP/classes/Product_History.php'; // ProductHistory class
+require_once 'C:/xampp/htdocs/BarcodeScanner/classes/database.php';  // Database class
+require_once 'C:/xampp/htdocs/BarcodeScanner/classes/product.php';   // Product class
+require_once 'C:/xampp/htdocs/BarcodeScanner/classes/product_history.php'; // ProductHistory class
 
 // Create a database connection
 $database = new Database();

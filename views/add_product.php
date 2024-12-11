@@ -1,6 +1,6 @@
 <?php
-require_once 'C:/xampp/htdocs/SCANNEROOP/classes/Database.php';
-require_once 'C:/xampp/htdocs/SCANNEROOP/classes/Product.php';
+require_once 'C:/xampp/htdocs/BarcodeScanner/classes/Database.php';
+require_once 'C:/xampp/htdocs/BarcodeScanner/classes/Product.php';
 
 $database = new Database();
 $db = $database->getConnection();
